@@ -7,7 +7,7 @@ html[xmlns] .clearfix { display: block; }
 a, a:hover, a:visited { color: blue; }
 
 body { 
-  background: url(bgblacknoise.png);
+  background: url(/bg.jpg);
   font-family: "Lucida Grande", "Lucida Sans", sans-serif;
   font-size: 13px;
   line-height: 16px;
@@ -16,7 +16,7 @@ body {
 .content {
   width: 600px;
   margin: 50px auto;
-  background: url(bgwhitenoise.gif);
+  background: url(/bgwhitenoise.png);
   padding: 20px;
   -moz-border-radius: 20px;
   -webkit-border-radius: 20px;
