@@ -1,0 +1,40 @@
+.clear { clear: both; height: 0; line-height: 0; font-size: 0; }
+.clearfix:after { content: "."; display: block; clear: both; visibility: hidden; line-height: 0; height: 0; }
+.clearfix { display: inline-block; }
+html[xmlns] .clearfix { display: block; }
+* html .clearfix { height: 1%; }
+
+a, a:hover, a:visited { color: blue; }
+
+body { 
+  background: url(bgblacknoise.png);
+  font-family: "Lucida Grande", "Lucida Sans", sans-serif;
+  font-size: 13px;
+  line-height: 16px;
+}
+
+.content {
+  width: 600px;
+  margin: 50px auto;
+  background: url(bgwhitenoise.gif);
+  padding: 20px;
+  -moz-border-radius: 20px;
+  -webkit-border-radius: 20px;
+  border-radius: 20px;
+}
+
+.content .photo { float: left; width: 250px; }
+.content .photo img { border: 1px solid #ccc; padding: 6px; }
+
+.content .info { float: left; width: 320px; }
+
+.content .info .h1 { margin-bottom: 4px; }
+.content .info .legenda { font-size: 18px; }
+.content .info h2 { margin-top: 26px; font-size: 20px; }
+.content .info p { margin-bottom: -4px; }
+
+.project { margin-bottom: 20px; }
+.project a { font-size: 16px; }
+.project .date { color: #777; margin: 6px 0; }
+.thumb { float: right; margin-left: 10px; }
+.thumb img { border: 1px solid #ccc; padding: 4px; float: left; margin: 2px; }
