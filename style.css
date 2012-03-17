@@ -7,30 +7,33 @@ html[xmlns] .clearfix { display: block; }
 a, a:hover, a:visited { color: blue; }
 
 body { 
-  background: url(/bg.jpg);
-  font-family: "Lucida Grande", "Lucida Sans", sans-serif;
+  background: url(bg.jpg);
+  /*font-family: "Lucida Grande", "Lucida Sans", sans-serif;*/
+  font-family: 'Open Sans', sans-serif;
   font-size: 13px;
   line-height: 16px;
 }
 
-.content {
+section {
   width: 600px;
   margin: 50px auto;
-  background: url(/bgwhitenoise.png);
+  background: url(bgwhitenoise.png);
   padding: 20px;
   -moz-border-radius: 20px;
   -webkit-border-radius: 20px;
   border-radius: 20px;
 }
 
-.content .photo { float: left; width: 250px; }
-.content .photo img { border: 1px solid #ccc; padding: 6px; }
+section .photo { float: left; width: 250px; }
+section .photo img { border: 1px solid #ccc; padding: 6px; }
 
-.content .info { float: left; width: 320px; }
-.content .info .h1 { margin-bottom: 4px; }
-.content .info .legenda { font-size: 18px; }
-.content .info h2 { margin-top: 26px; font-size: 20px; }
-.content .info p { margin-bottom: -4px; }
+section .info { float: left; width: 320px; }
+section .info .h1 { margin-bottom: 4px; }
+section .info .legenda { font-size: 18px; }
+section .info h2 { margin-top: 26px; font-size: 20px; }
+section .info p { margin-bottom: -4px; }
+
+section .projects ul > li { padding-bottom: 4px; }
 
 /*.project { margin-bottom: 20px; }
 .project a { font-size: 16px; }
