@@ -4,7 +4,7 @@
 html[xmlns] .clearfix { display: block; }
 * html .clearfix { height: 1%; }
 
-a, a:hover, a:visited { color: blue; }
+a, a:hover, a:visited { color: blue; text-decoration: none; }
 
 body { 
   background: url(bg.jpg);
